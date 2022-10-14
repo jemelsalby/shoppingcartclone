@@ -5,17 +5,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
 
 const routes:Routes=[
   {
-
+    path:"",component:ShoppingcartComponent
   }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    ShoppingcartComponent
   ],
   imports: [
     BrowserModule,
